@@ -1,0 +1,38 @@
+{
+  "pet_gpt_smpl_best.pt": {
+    "best_eval_loss": 3.106193939844767,
+    "sha256": "3d946e3bdb156d4a106e02a277ea7b4bbc84ccf291f6ec6189ffbe0bc3f589ca",
+    "size_bytes": 121658083,
+    "source_role": "pet_gpt_smpl"
+  },
+  "pet_motion_classifier_best.pt": {
+    "best_eval_acc": 0.9642857142857143,
+    "sha256": "9b015fe7f3074e663a4d1f75f100abaf25d3f0efb696256f2ccfff8cd0208fe7",
+    "size_bytes": 41467349,
+    "source_role": "pet_motion_classifier"
+  },
+  "wan_mano_vqvae_best.pt": {
+    "best_eval_loss": 1.7700489613474633,
+    "sha256": "36d8933b5d51862affcbe4b29851298aa6b144a6d46da9436ba911a66fd227bc",
+    "size_bytes": 349270763,
+    "source_role": "wan_mano_vqvae"
+  },
+  "wan_pet_rel_vqvae_best.pt": {
+    "best_eval_loss": 0.11038906753428875,
+    "sha256": "e398b191436d500c9991ddc003424b9875a9441be424abe90b45f19c8bc93681",
+    "size_bytes": 108912982,
+    "source_role": "wan_pet_rel_vqvae"
+  },
+  "wan_pet_vqvae_global_best.pt": {
+    "best_eval_loss": 0.27014976891420656,
+    "sha256": "9c4f9952acf570b4491b5107b7f8f6fbd0b2d20fc2bd2d4953fabf5f0c5d6d3c",
+    "size_bytes": 109135051,
+    "source_role": "wan_pet_vqvae_global"
+  },
+  "wan_smpl_vqvae_best.pt": {
+    "best_eval_loss": 0.8021610458286441,
+    "sha256": "89e28e7e36a75f7a2492833cc1807163f76d921185ad8ebb97a69f102844eb81",
+    "size_bytes": 174627353,
+    "source_role": "wan_smpl_vqvae"
+  }
+}

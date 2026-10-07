@@ -1,0 +1,17 @@
+{
+  "classifier_ckpt": "checkpoints/pet_motion_classifier_best.pt",
+  "config": "configs/pet_gpt_smpl.yaml",
+  "declared_val_files": 36,
+  "diversity_gen": 6.992292881011963,
+  "diversity_gt": 8.588519096374512,
+  "fid_gen_vs_gt": 5.00918468179151,
+  "fid_vq_recon_vs_gt": 0.6212135254129407,
+  "gpt_ckpt": "checkpoints/pet_gpt_smpl_best.pt",
+  "n_test_files": 34,
+  "seed": 42,
+  "split_manifest": "splits/petgpt_smpl.yaml",
+  "temperature": 1.0,
+  "top_k": 50,
+  "use_mano": true,
+  "use_smpl": true
+}

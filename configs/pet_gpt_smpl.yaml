@@ -1,0 +1,43 @@
+use_smpl: true
+use_mano: true
+
+model:
+  vocab_mano: 1024
+  vocab_pet: 1024
+  vocab_smpl: 1024
+  vocab_pet_rel: 1024
+  cond_len: 150
+  smpl_len: 75
+  pet_rel_len: 75
+  pet_len: 75
+  n_embd: 512
+  n_head: 8
+  n_layer: 6
+  dropout: 0.1
+  use_smpl: true
+  use_mano: true
+  use_pet_rel: true
+  use_audio: true
+  audio_dim: 1024
+  audio_max_len: 750
+
+pet_vqvae_ckpt: checkpoints/wan_pet_vqvae_global_best.pt
+mano_vqvae_ckpt: checkpoints/wan_mano_vqvae_best.pt
+smpl_vqvae_ckpt: checkpoints/wan_smpl_vqvae_best.pt
+pet_rel_vqvae_ckpt: checkpoints/wan_pet_rel_vqvae_best.pt
+
+data:
+  pet_root: data/pet_npy
+  mano_root: data/mano_npy
+  smpl_root: data/smpl_npy
+  audio_root: data/interpet_mert
+  seq_len: 300
+  stride: 150
+  test_ratio: 0.2
+  split_seed: 42
+  batch_size: 32
+
+expname: pet_gpt_smpl
+seed: 42
+gen_temperature: 1.0
+gen_top_k: 50
